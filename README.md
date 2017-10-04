@@ -1,3 +1,5 @@
+[![Gem Version](https://badge.fury.io/rb/graphql-validation.svg)](https://badge.fury.io/rb/graphql-validation)
+
 # Graphql::Validation
 
 A simple gem to help with common validating GraphQL input objects.
