@@ -1,4 +1,5 @@
 [![Gem Version](https://badge.fury.io/rb/graphql-validation.svg)](https://badge.fury.io/rb/graphql-validation)
+[![Build Status](https://travis-ci.org/adHawk/graphql-validation.svg?branch=master)](https://travis-ci.org/adHawk/graphql-validation)
 
 # Graphql::Validation
 
