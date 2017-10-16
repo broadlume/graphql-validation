@@ -25,7 +25,7 @@ module Graphql
     GraphQL::Argument.accepts_definitions \
       validate_with: ->(type_defn, validator) {
         type_defn.define do
-          prepare ->(arg) do
+          prepare ->(arg, _ctx) do
             result = validator.call(arg.to_h)
             raise ArgumentValidationError, result if result.failure?
             result.output
